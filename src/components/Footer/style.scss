@@ -1,0 +1,95 @@
+ 
+.footer {
+    width     : 100%;
+    background: transparent linear-gradient(180deg, #C2E3F3 0%, #6AA3C1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 4px 6px 23px #A9A9A911;
+    opacity   : 1;
+    bottom    : 23px;
+    position  : absolute;
+}
+
+.footer .textfooter {
+    width         : 381px;
+    height        : 83px;
+    position      : absolute;
+    color         : var(--unnamed-color-425966);
+    text-align    : left;
+    letter-spacing: NaNpx;
+    color         : #425966;
+    opacity       : 1
+}
+
+.footer .textfooter span {
+    color         : var(--unnamed-color-425966);
+    text-align    : left;
+    letter-spacing: 0px;
+    color         : #425966;
+}
+ 
+
+/*Screen máximo 428px*/
+@media (max-width: 428px) { 
+
+    .footer {
+        height: 70px;
+    }
+
+    .footer .imgFooter {
+        top     : -20px;
+        left    : 190px;
+        width   : 228px;
+        height  : 106px;
+        position: absolute;
+    }
+
+    .footer .textfooter {
+        left: 23.38px;
+        font: normal normal normal 23px/31px Monster Clubhouse;
+        top : 20.3px;
+    } 
+}
+
+/*Screen entre 429px y 768px*/
+@media (min-width: 429px) and (max-width: 768px){ 
+
+    .footer {
+        height: 115.65px;
+    }
+
+    .footer .imgFooter {
+        top     : -46px;
+        left    : 328.39px;
+        width   : 379px;
+        height  : 175px;
+        position: absolute;
+    }
+
+    .footer .textfooter {
+        left: 49px;
+        font: normal normal normal 39px/53px Monster Clubhouse;
+        top : 30.3px;
+    } 
+}
+
+/*Screen mayor a 768px*/
+@media (min-width: 769px) { 
+
+    .footer {
+        height: 167px;
+    }
+
+    .footer .imgFooter {
+        top     : -46px;
+        left    : 673px;
+        width   : 536px;
+        height  : 248px;
+        position: absolute;
+    }
+
+    .footer .textfooter {
+        left: 166px;
+        font: normal normal normal 56px/76px Monster Clubhouse;
+        top : 52.3px;
+    }
+ 
+}
