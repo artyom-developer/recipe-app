@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Vegetarianos",
+        "icon": "/assets/icons/ic_vegetarian.svg",
+        "query": "vegan`"
+    },
+    {
+        "id": 2,
+        "name": "Platos Principales",
+        "icon": "/assets/icons/ic_main.svg",
+        "query": "main-course"
+    }, 
+    {
+        "id": 3,
+        "name": "Tortas",
+        "icon": "/assets/icons/ic_cake.svg",
+        "query": "cake"
+    },
+    {
+        "id": 4,
+        "name": "Comida Rápida",
+        "icon": "/assets/icons/ic_fast-food.svg",
+        "query": "fast"
+    },
+    {
+        "id": 5,
+        "name": "Menú Niños",
+        "icon": "/assets/icons/ic_kids.svg",
+        "query": "kids"
+    },
+    {
+        "id": 6,
+        "name": "Sopas",
+        "icon": "/assets/icons/ic_soup.svg",
+        "query": "soup"
+    }
+] 
